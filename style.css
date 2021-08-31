@@ -1,0 +1,270 @@
+﻿  *{
+	  box-sizing: border-box;
+  }
+  
+  
+  .row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.row { display: block; }
+
+
+
+
+ html {
+  background-image: url(https://infosmi.net/wp-content/uploads/2021/03/2-361.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .header{
+
+ margin-bottom:20px;
+ 
+ }
+ .inner-header{
+	  background: #446ea6f1;
+      height:120px;
+ }
+.content{
+	
+	width:49%;
+	float:left;
+}
+.inner-content{
+	background:#7b8e94aa;
+	min-height:900px;
+}
+
+
+
+
+.sidebar{
+	
+	width:51%;
+	float:right;
+	padding-left:10px;
+	
+}
+.inner-sidebar{
+	background:#7b8e94aa;
+	min-height:900px;
+}
+
+ 
+ 
+ 
+ 
+ 
+ /* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+ .dropdown{
+	
+	 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-5%);
+  -ms-transform: translateY(-5%);
+  transform: translateY(-5%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #1c3966;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: red;
+  color: white;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  li {
+    list-style-type: none;
+}
+header {
+    overflow: hidden; 
+}
+.center-block-main {
+	float:center;
+    margin: 10px;
+    max-width: 1366px; 
+}
+.logo {
+  
+     display:block;
+margin: 0 ;
+margin-top: px;
+}
+.menu li {
+    float: center; 
+    font-weight: 400; 
+}
+.menu li a {
+    color: #454851;
+    text-decoration: none;
+display: block; 
+    padding: 30px 113px;
+}
+
+
+.cente{
+	float:center;
+	
+	
+	
+	
+}
